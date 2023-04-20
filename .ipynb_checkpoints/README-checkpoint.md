@@ -37,7 +37,7 @@ Open your browser and go to the following url:
 https://fintech1.richedev.com/
 
 ### Application walkthrough
-Please refer to our [project walkthrough](project_walkthrough) for detailed instructions on how to use the application.
+Please refer to our [project walkthrough](project_walkthrough.md) for detailed instructions on how to use the application.
 
 ### Data conclusions
 <p align="justify">The Investor's Dream application provides investors with the tools they require to monitor existing investments and, perhaps more importantly, make informed decisions regarding future investments.</p>
