@@ -54,7 +54,7 @@ Concatenating different Dataframes
 
 ### Running the application ###
 
-Clone this repository: git clone #https://github.com/your-username/stock-portfolio-tracker.git
+Clone this repository: git clone #https://github.com/julianritchey/project-1
 Install the required dependencies: pip install -r requirements.txt
 Create the database: python create_db.py
 Run the application: python app.py
