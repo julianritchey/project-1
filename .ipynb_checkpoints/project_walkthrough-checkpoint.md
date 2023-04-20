@@ -48,7 +48,7 @@ By including an investment amount with a drafted portfolio, users can also run s
 
 ## Account management
 ![Account management screen](miscellaneous/id_account_management_screen.png)  
-The account management screen allows users to view their connected exchanges, along with information relating to the exchanges.
+The *account management* screen allows users to view their connected exchanges, along with information relating to the exchanges.
 
 ## Account management
 ![Logout view](miscellaneous/id_logout_view.png)  
