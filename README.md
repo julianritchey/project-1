@@ -1,2 +1,6 @@
-# project-1
-Project 1 - Investor's Dream
+# Project 1 - Portfolio tracker
+A FinTech bootcamp project by:
+- Andrea Delgadillo Tomasevich
+- Dmitry Chalganov
+- John Yin
+- Julian Ritchey
