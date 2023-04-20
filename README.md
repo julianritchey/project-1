@@ -58,7 +58,7 @@ Clone this repository: git clone #https://github.com/your-username/stock-portfol
 Install the required dependencies: pip install -r requirements.txt
 Create the database: python create_db.py
 Run the application: python app.py
-Open your browser and go to http://localhost:5000
+Open your browser and go to https://fintech1.richedev.com/
 
 ### Data conclusions  ###
 Investor's dream's application's analysis
