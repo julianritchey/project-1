@@ -1,4 +1,6 @@
-# Application usage
+# Project walkthrough
+Details for application usage.
+
 ## Getting started
 ![Home screen](miscellaneous/id_home_screen.png)  
 Users begin by navigating to the following web address:
