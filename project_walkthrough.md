@@ -21,7 +21,7 @@ The *Historical investments* screen displays users' historical investment data, 
 
 ## Portfolio planner
 ![Portfolio planner screen](miscellaneous/id_portfolio_planner_screen.png)
-The *Portfolio planner* screen provides users with a tool to draft and analyze new portfolios. Drafted portfolios must contain a name, an investment period, at least one ticker, and a total ticker weight equaling 1 across all tickers before it can be saved to the applications database.
+The *Portfolio planner* screen provides users with a tool to draft and analyze new portfolios. Drafted portfolios must contain a name, an investment period, at least one ticker, and a total ticker weight equaling 1 across all tickers before it can be saved to the application's database.
   
 ![Portfolio drafted view](miscellaneous/id_portfolio_drafted_view.png)  
 ![Portfolio calculations view 01](miscellaneous/id_portfolio_calculations_view_01.png)  
