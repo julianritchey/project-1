@@ -26,6 +26,7 @@ The *Historical investments* screen displays users' historical investment data, 
 ### Portfolio planner
 ![Portfolio planner screen](miscellaneous/id_portfolio_planner_screen.png)
 The *Portfolio planner* screen provides users with a tool to draft and analyze new portfolios. Drafted portfolios must contain a name, an investment period, at least one ticker, and a total ticker weight equaling 1 across all tickers before it can be saved to the applications database.
+  
 ![Portfolio drafted view](miscellaneous/id_portfolio_drafted_view.png)  
 ![Portfolio calculations view 01](miscellaneous/id_portfolio_calculations_view_01.png)  
 ![Portfolio calculations view 02](miscellaneous/id_portfolio_calculations_view_01.png)  
@@ -36,6 +37,7 @@ Upon drafting a portfolio, users can run calculations to analyze historical port
 - Daily returns
 - Cumulative returns
 - Daily closing price
+  
 ![Portfolio simulations view 01](miscellaneous/id_portfolio_simulations_view_01.png)  
 ![Portfolio simulations view 02](miscellaneous/id_portfolio_simulations_view_01.png)  
 ![Portfolio simulations view 03](miscellaneous/id_portfolio_simulations_view_01.png)  
@@ -82,7 +84,7 @@ For the privacy of personal information, users are encouraged to log out when no
 2. How can an investor make the most money with the laest amount of risk?
 3. Which asset mix can provide the strongest portfolio given current market conditions?
 4. In what ways can an investor visualize their investment planning data?
-5. Who could use this application?
+5. Who could use this application?  
 To answer the questions above, please refer to our [PowerPoint presentation](miscellaneous/Investor's Dream Project 1.pptx).
 
 ## Developers
