@@ -85,6 +85,7 @@ For the privacy of personal information, users are encouraged to log out when no
 3. Which asset mix can provide the strongest portfolio given current market conditions?
 4. In what ways can an investor visualize their investment planning data?
 5. Who could use this application?  
+
 To answer the questions above, please refer to our [PowerPoint presentation](miscellaneous/Investor's Dream Project 1.pptx).
 
 ## Developers
