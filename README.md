@@ -1,92 +1,71 @@
-# Investor's Dream
-Dash web-application for managing personal investments, as well as planning and simulating theoretical portfolios.
+# Project 1 - Portfolio tracker
 
-## Project description/outline
-The Investor's Dream application is a tool that allows users to track historic and current investments while also planning potential future investments. Historic and current investments are downloaded from an exchange's server via the exchange's API and displayed in the application. Users can draft and analyze theoretcial portfolios utilizing a variety of graphical and tabular methods. Drafted portfolios can be saved to the application's PostgreSQL database. Simulations can be performed on theoretical portfolios and analyzed in tabular and/or graphical formats.
+## Investor's dream application
 
-## Application usage
-### Getting started
-![Home screen](miscellaneous/id_home_screen.png)
-Users begin by navigating to the following web address:
-[http://fintech1.richedev.com](http://fintech1.richedev.com)
-The home page of the application provides users a login link in the top-right corner. Users are required to log in.
+### Goal objectives and purpose
+> <p align="justify"> Develop a real-time portfolio tracker that performs the following functions that displays historic and existing investments from multiple exchanges.Stores historic and existing investments in a local database.Provides forecasting models for various investment assets. Displays data in tabular and graphical formats.Portofolio planner, forecasting, and simulation of portfolios with visualization using interactive graphs, charts, plots  </p>
+> 
+### Dream big, Questions to be answered, Preparation, and execution
 
-### Logging in
-![Login screen](miscellaneous/id_login_screen.png)
-The application utilizes a social login service provided by [Auth0](https://auth0.com/). Users are requested to log in using one of the social methods provided.
+> <p align="justify"> How can we diversify an investor’s portfolio such that it can be profitable and has stocks with a security worth investing? How do we present information to an investor looking to diversify their stock portfolio, maximizing their profits such that they can study the company and make an informed decision before investing?
+One of the answers to this question is forecasting the stock’s closing price. However, it is very difficult to predict something that depends on the future which is uncertain and unpredictable. Stock data is also very volatile. As you can see in the figure below, the stock closing price trends look like that of a random walk. </p>
+>  
+> <p align="justify"> ### MonteCarlo Simulations ###
+The program will read a CSV file containing our portfolio data. Based on this
+data, a new CSV report will be generated using live market value to indicate
+our current holding performance using the IEX API.
 
-### Current investments
-![Current investments screen](miscellaneous/id_current_investments_screen.png)
-Upon logging-in, users are brought to the *Current investments* screen where, if applicable, their current investments are displayed. A tabbed view allows users to view their current investments across multiple exchanges.
+The program will be installable using `pip`, and requires a `setup.py`
+file. When installed, a binary will be added to the Python path which can be
+invoked from anywhere on the filesystem.</p>
 
-### Historical investments
-![Historical investments screen](miscellaneous/id_historical_investments_screen.png)
-The *Historical investments* screen displays users' historical investment data, if applicable. A tabbed view allows users to view their historical investments across multiple exchanges.
+### Investor's dream's features ###
+> <p align="justify"> Every investor's million dollar question
+> 1. How can an investor compare multiple simulated portfolios to determine their ideal investment portfolio?
+> 2. How can an investor make the most money with the least amount of risk? Which asset mix can provide the strongest portfolio given current market conditions?
+> 3. In what ways can an investor visualize their investment planning data?
+> 4. How can an investor make the most money with the least amount of risk? Which asset mix can provide the strongest portfolio given current market conditions? In what ways can an investor visualize their investment planning data?
 
-### Portfolio planner
-![Portfolio planner screen](miscellaneous/id_portfolio_planner_screen.png)
-The *Portfolio planner* screen provides users with a tool to draft and analyze new portfolios. Drafted portfolios must contain a name, an investment period, at least one ticker, and a total ticker weight equaling 1 across all tickers before it can be saved to the applications database.
-![Portfolio drafted view](miscellaneous/id_portfolio_drafted_view.png)
-![Portfolio calculations view 01](miscellaneous/id_portfolio_calculations_view_01.png)
-![Portfolio calculations view 02](miscellaneous/id_portfolio_calculations_view_01.png)
-![Portfolio calculations view 03](miscellaneous/id_portfolio_calculations_view_01.png)
-Upon drafting a portfolio, users can run calculations to analyze historical portfolio performance and related statistics, including:
-- Sharpe ratio
-- Beta
-- Daily returns
-- Cumulative returns
-- Daily closing price
-![Portfolio simulations view 01](miscellaneous/id_portfolio_simulations_view_01.png)
-![Portfolio simulations view 02](miscellaneous/id_portfolio_simulations_view_01.png)
-![Portfolio simulations view 03](miscellaneous/id_portfolio_simulations_view_01.png)
-By including an investment amount with a drafted portfolio, users can also run simulations to analyze theoretical future performance of the portfolio with statistics such as:
-- Mean
-- Standard deviation
-- Quartiles
-- 95% CI lower
-- 95% CI upper
-- Cumulative return trajectories
-- Distribution of final cumulative returns
+### Investor's dream's features ###
+> <p align="justify"> With Investor’s Dream it is possible to add multiple portfolios, save them in a database and run the simulation for each portfolio individually.
 
-### Account management
-![Account management screen](miscellaneous/id_account_management_screen.png)
-The account management screen allows users to view their connected exchanges, along with information relating to the exchanges.
+<p align="justify"> Calculate Daily Returns,Cumulative Returns,Calculate Beta, Sharpe Ratios, Run Monte Carlo Simulation Visualizuation of investments with interactive plots.
+ 
+> <p align="justify"> The asset mix can provide the strongest portfolio given current market conditions
 
-### Account management
-![Logout view](miscellaneous/id_logout_view.png)
-For the privacy of personal information, users are encouraged to log out when not using the application.
+### Resources, technology emplo ###
 
-## Tools used
-![Tools used](miscellaneous/tools_used.png)
-- Python
-  - APIs
-    - Alpaca
-    - Auth0
-    - KuCoin
-  - Dash
-  - Flask
-  - Holoviews
-  - Monte Carlo simulator
-  - Numpy
-  - Pandas
-  - Plotly
-  - SQLAlchemy
-  - YFinance
-- SQL
-  - PostgreSQL
-- CSS
-- HTML
+<p align="justify"> 
 
-## Questions to answer
-1. How can an investor compare multiple simulated portfolios to determine their ideal investment portfolio?
-2. How can an investor make the most money with the laest amount of risk?
-3. Which asset mix can provide the strongest portfolio given current market conditions?
-4. In what ways can an investor visualize their investment planning data?
-5. Who could use this application?
-To answer the questions above, please refer to our [PowerPoint presentation](miscellaneous/Investor's Dream Project 1.pptx).
+> APIS: Historical Data:Yahoo Finance API,Alpaca API,Current Investments,Kucoin crypto exchange API 
+Coin API,Alpha Vantage API   
 
-## Developers
-- [Andrea Delgadillo Tomasevich](https://github.com/visionaryspirit)
-- [Dmitry Chalganov](https://github.com/Imbadimasa)
-- [John Yin](https://github.com/Ziqiangyin)
-- [Julian Ritchey](https://github.com/julianritchey)
+> - Data Cleaning with Pandas Set data hierarchy according to the requirements
+Cleaning, and filtering of data, renaming columns
+Easier to clean data using one constant source, e.g. yfinance library
+Concatenating different Dataframes
+
+> - Technical issues: As with any technology platform, Starbucks' mobile app and digital systems can sometimes experience technical glitches or outages that can frustrate customers.
+> 
+
+### Resources, technoloy employed in development of app  ###
+
+> <p align="justify"> To analyze the results of a Monte Carlo simulation, financial analysts often use metrics such as Sharpe ratios, standard deviations, and correlations. The Sharpe ratio, for example, measures the excess return of a portfolio relative to the risk-free rate, divided by its standard deviation. The standard deviation measures the degree of variability of the portfolio's returns, while correlations measure the degree to which the returns of different assets move together.
+
+### Running the application ###
+
+Clone this repository: git clone #https://github.com/julianritchey/project-1
+Install the required dependencies: pip install -r requirements.txt
+Create the database: python create_db.py
+Run the application: python app.py
+Open your browser and go to https://fintech1.richedev.com/
+
+### Data conclusions  ###
+Investor's dream's application's analysis
+> <p align="justify"> In finance, Monte Carlo simulations are often used to analyze the risk and return of a portfolio of assets. The technique involves creating a model of the portfolio that takes into account the historical performance of the assets, as well as their expected future returns, volatility, and correlations with one another.
+
+### Dream doesn't cost anything ###
+Humble beginnings, abundant future
+> <p align="justify"> 
+
+
