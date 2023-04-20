@@ -588,9 +588,6 @@ def run_portfolio_calculations(n_clicks, ticker_list, weights, investment_period
 
         final_cumulative_returns = pd.DataFrame(cumulative_returns.iloc[-1, :])
         final_cumulative_returns.columns = ['Value']
-        # plt = adj_cumulative_returns.plot(kind='hist', bins=10,density=True,title=plot_title)
-        # plt.axvline(self.confidence_interval.iloc[0], color='r')
-        # plt.axvline(self.confidence_interval.iloc[1], color='r')
 
         fig = px.histogram(
             data_frame=final_cumulative_returns,
@@ -605,17 +602,6 @@ def run_portfolio_calculations(n_clicks, ticker_list, weights, investment_period
         )
         fig.add_vline(x=return_summary.iloc[8, 1], line_color = 'firebrick')
         fig.add_vline(x=return_summary.iloc[9, 1], line_color = 'firebrick')
-
-        # dist_data = []
-        # for column in final_cumulative_returns:
-        #     dist_data.append({
-        #     'x': final_cumulative_returns.index,
-        #     'y': final_cumulative_returns[column].to_numpy(),
-        #     'type': 'histogram',
-        #     'name': column,
-        #     'xbins.size': int(investment_period*5),
-        #     'histnorm': 'density'
-        # })
 
         sim_data = []
         for column in cumulative_returns:
