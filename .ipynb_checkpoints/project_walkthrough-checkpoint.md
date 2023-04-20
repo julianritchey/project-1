@@ -25,8 +25,8 @@ The *Portfolio planner* screen provides users with a tool to draft and analyze n
   
 ![Portfolio drafted view](miscellaneous/id_portfolio_drafted_view.png)  
 ![Portfolio calculations view 01](miscellaneous/id_portfolio_calculations_view_01.png)  
-![Portfolio calculations view 02](miscellaneous/id_portfolio_calculations_view_01.png)  
-![Portfolio calculations view 03](miscellaneous/id_portfolio_calculations_view_01.png)  
+![Portfolio calculations view 02](miscellaneous/id_portfolio_calculations_view_02.png)  
+![Portfolio calculations view 03](miscellaneous/id_portfolio_calculations_view_03.png)  
 Upon drafting a portfolio, users can run calculations to analyze historical portfolio performance and related statistics, including:
 - Sharpe ratio
 - Beta
@@ -35,8 +35,8 @@ Upon drafting a portfolio, users can run calculations to analyze historical port
 - Daily closing price
   
 ![Portfolio simulations view 01](miscellaneous/id_portfolio_simulations_view_01.png)  
-![Portfolio simulations view 02](miscellaneous/id_portfolio_simulations_view_01.png)  
-![Portfolio simulations view 03](miscellaneous/id_portfolio_simulations_view_01.png)  
+![Portfolio simulations view 02](miscellaneous/id_portfolio_simulations_view_02.png)  
+![Portfolio simulations view 03](miscellaneous/id_portfolio_simulations_view_03.png)  
 By including an investment amount with a drafted portfolio, users can also run simulations to analyze theoretical future performance of the portfolio with statistics such as:
 - Mean
 - Standard deviation
