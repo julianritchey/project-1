@@ -16,12 +16,12 @@ Dash web-application for managing personal investments, as well as planning and 
 
 ### Answers
 #### Portfolio drafting and analysis
-<p align="justify">The Investor's Dream application allows users to draft portfolios of their choosing and run calculations on historical data to determing portfolio risk. Calculations include:</p>
-- Sharpe ratio
-- Beta
-- Daily returns
-- Cumulative returns
-- Daily closing price
+<p align="justify">The Investor's Dream application allows users to draft portfolios of their choosing and run calculations on historical data to determing portfolio risk. Calculations include:</p>  
+- Sharpe ratio  
+- Beta  
+- Daily returns  
+- Cumulative returns  
+- Daily closing price  
     
 <p align="justify">The application employs validation techniques to ensure accurate portfolio drafting and analysis. Drafted portfolios can be saved to the application's database for future reference and comparison.</p>
 
@@ -32,7 +32,7 @@ Dash web-application for managing personal investments, as well as planning and 
 For further information, please refer to our [PowerPoint presentation](miscellaneous/Investor's Dream Project 1.pptx).
 
 ### Running the application
-Open your browser and go to the following url:
+Open your browser and go to the following url:  
 https://fintech1.richedev.com/
 
 ### Application walkthrough
@@ -68,7 +68,7 @@ Please refer to our [project walkthrough](project_walkthrough) for detailed inst
 - [John Yin](https://github.com/Ziqiangyin)
 - [Julian Ritchey](https://github.com/julianritchey)
     
-### Dream doesn't cost anything
-Humble beginnings, abundant future
+#### Dreaming doesn't cost anything
+*Humble beginnings, abundant future*
 
 
