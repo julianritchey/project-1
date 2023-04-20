@@ -17,6 +17,7 @@ Dash web-application for managing personal investments, as well as planning and 
 ### Answers
 #### Portfolio drafting and analysis
 <p align="justify">The Investor's Dream application allows users to draft portfolios of their choosing and run calculations on historical data to determing portfolio risk. Calculations include:</p>  
+  
 - Sharpe ratio  
 - Beta  
 - Daily returns  
