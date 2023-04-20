@@ -4,7 +4,7 @@ Details for application usage.
 ## Getting started
 ![Home screen](miscellaneous/id_home_screen.png)  
 Users begin by navigating to the following web address:  
-[http://fintech1.richedev.com](http://fintech1.richedev.com)
+[http://fintech1.richedev.com](http://fintech1.richedev.com)  
 The home page of the application provides users a login link in the top-right corner. Users are required to log in.
 
 ## Logging in
